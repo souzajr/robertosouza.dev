@@ -1,4 +1,3 @@
-import React from "react";
 import Safe from "react-safe"
 
 const Navbar = () => (
@@ -18,7 +17,7 @@ const Navbar = () => (
             </nav>
         </div>
         <ul className="sidenav" id="nav-mobile">
-            <li><a class="sidenav-close right btn purple" href="#!">X</a></li>
+            <li><a className="sidenav-close right btn purple" href="#!">X</a></li>
             <li><a href="#Sobre">Sobre</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Projetos">Projetos</a></li>

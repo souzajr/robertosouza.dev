@@ -1,4 +1,5 @@
 import { Button } from 'react-materialize'
+import Safe from "react-safe"
 
 const Footer = () => (
     <footer id="Contato" className="page-footer grey lighten-3">
@@ -106,6 +107,18 @@ const Footer = () => (
                 font-size: 14px;
             }
         `}</style>
+
+        <Safe.script>{`
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120240872-2"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                
+                gtag('config', 'UA-120240872-2');
+            </script>
+        `}</Safe.script>
     </footer>
 )
 

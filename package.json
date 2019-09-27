@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 3002",
+    "production": "next build && pm2 start npm --name \"RobertoSouza\" -- start"
   },
   "keywords": [],
   "author": "",

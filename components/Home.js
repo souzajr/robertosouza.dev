@@ -13,7 +13,7 @@ const Home = () => (
                         </div>
                         <div className="card-stacked">
                             <div className="card-content">
-                                <p style={{textAlign: "justify"}}>Programo por hobby desde que me conheço por gente, quando pequeno eu já mostrava interesse por números e por tecnologia. Resolvi seguir a carreira de programador há pouco mais de dois anos, quando decidi abrir meu próprio negócio. De lá até aqui a jornada de aprendizado foi grande e satisfatória, hoje me considero um profissional ainda em fase de aprendizado, porém com experiência e muita vontade de crescer.</p>
+                                <p style={{textAlign: "justify"}}>Programo por hobby desde que me conheço por gente, quando pequeno eu já mostrava interesse por números e por tecnologia. Resolvi seguir a carreira de programador há pouco mais de três anos, quando decidi abrir meu próprio negócio. De lá até aqui a jornada de aprendizado foi grande e satisfatória, hoje me considero um profissional ainda em fase de aprendizado, porém com experiência e muita vontade de crescer.</p>
                             </div>
                             <div className="card-action size-screen-card">
                                 <a href="https://drive.google.com/file/d/1UN0gEY2ZFO6b865x2i4ysyTUrZNl--5k/view?usp=sharing" className="waves-effect waves-light btn purple"><i className="material-icons left">cloud_download</i>Baixar currículo</a>

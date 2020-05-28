@@ -73,7 +73,7 @@ const Footer = () => (
                     <Button
                         waves="light"
                         node="a"
-                        href="mailto:robertos.cps@gmail.com"
+                        href="mailto:oi@robertosouza.dev"
                         tooltip="Email"
                         tooltipOptions={{position: 'top'}}
                         style={{
@@ -89,7 +89,7 @@ const Footer = () => (
             </div>
         </div>
         <div className="footer-copyright indigo-text ">
-            <div className="container">© 2019 Roberto Souza
+            <div className="container">© 2020 Roberto Souza
                 <a className="grey-text text-darken-3 right" href="https://github.com/souzajr/robertosouza.dev/">Veja este projeto no Github</a>
             </div>
         </div>
